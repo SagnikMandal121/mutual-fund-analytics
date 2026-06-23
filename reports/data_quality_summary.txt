@@ -1,0 +1,12 @@
+DATA QUALITY SUMMARY
+
+1. Successfully loaded 10 original datasets.
+2. Integrated 5 live NAV datasets through mfapi API.
+3. No duplicate rows found in the source datasets.
+4. Missing values found only in yoy_growth_pct (12 records).
+5. Date columns are currently stored as strings.
+6. Fund master contains 10 fund houses.
+7. Fund master contains 2 major categories and 12 subcategories.
+8. Five risk categories identified.
+9. API scheme names differed from the provided scheme names for several AMFI codes.
+10. AMFI code validation completed successfully.
