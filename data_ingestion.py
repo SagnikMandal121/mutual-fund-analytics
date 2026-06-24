@@ -77,3 +77,23 @@ print(fund_master["risk_category"].unique())
 
 print("\nSEBI Category Codes:")
 print(fund_master["sebi_category_code"].unique())
+
+print("\n" + "=" * 60)
+print("AMFI CODE VALIDATION")
+print("=" * 60)
+
+nav_history = datasets["02_nav_history.csv"]
+
+fund_codes = set(fund_master["amfi_code"])
+nav_codes = set(nav_history["amfi_code"])
+
+missing_codes = fund_codes - nav_codes
+
+print(f"Total fund_master codes: {len(fund_codes)}")
+print(f"Total nav_history codes: {len(nav_codes)}")
+
+if len(missing_codes) == 0:
+    print("All AMFI codes exist in NAV history.")
+else:
+    print("Missing AMFI Codes:")
+    print(missing_codes)

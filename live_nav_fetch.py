@@ -68,4 +68,5 @@ for code in amfi_codes:
 
 print("\n" + "=" * 60)
 print("LIVE NAV FETCH COMPLETED")
-print("=" * 60)
+
+print("=" * 60) 

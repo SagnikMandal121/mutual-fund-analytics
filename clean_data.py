@@ -80,6 +80,112 @@ performance = performance[
 
 print("Performance records:", len(performance))
 
+#FUND MASTER
+
+fund_master = pd.read_csv(
+    "data/raw/01_fund_master.csv"
+)
+
+fund_master["launch_date"] = pd.to_datetime(
+    fund_master["launch_date"]
+)
+
+fund_master = fund_master.drop_duplicates()
+
+fund_master = fund_master.dropna(
+    subset=["amfi_code", "scheme_name"]
+)
+
+#AUM BY FUND HOUSE
+
+aum = pd.read_csv(
+    "data/raw/03_aum_by_fund_house.csv"
+)
+
+aum["date"] = pd.to_datetime(
+    aum["date"]
+)
+
+aum = aum.drop_duplicates()
+
+aum = aum[
+    aum["aum_crore"] > 0
+]
+
+#SIP INFLOWS
+
+sip = pd.read_csv(
+    "data/raw/04_monthly_sip_inflows.csv"
+)
+
+sip["month"] = pd.to_datetime(
+    sip["month"]
+)
+
+sip["yoy_growth_pct"] = (
+    sip["yoy_growth_pct"]
+    .fillna(0)
+)
+
+sip = sip.drop_duplicates()
+
+#CATEGORY INFLOWS
+
+category = pd.read_csv(
+    "data/raw/05_category_inflows.csv"
+)
+
+category["month"] = pd.to_datetime(
+    category["month"]
+)
+
+category = category.drop_duplicates()
+
+#INDUSTRY FOLIOS
+
+folios = pd.read_csv(
+    "data/raw/06_industry_folio_count.csv"
+)
+
+folios["month"] = pd.to_datetime(
+    folios["month"]
+)
+
+folios = folios.drop_duplicates()
+
+#PORTFOLIO HOLDINGS
+
+holdings = pd.read_csv(
+    "data/raw/09_portfolio_holdings.csv"
+)
+
+holdings["portfolio_date"] = pd.to_datetime(
+    holdings["portfolio_date"]
+)
+
+holdings = holdings.drop_duplicates()
+
+holdings = holdings[
+    holdings["weight_pct"] > 0
+]
+
+#BENCHMARK INDICES
+
+benchmark = pd.read_csv(
+    "data/raw/10_benchmark_indices.csv"
+)
+
+benchmark["date"] = pd.to_datetime(
+    benchmark["date"]
+)
+
+benchmark = benchmark.sort_values(
+    ["index_name", "date"]
+)
+
+benchmark = benchmark.drop_duplicates()
+
+
 
 # SAVE FILES
 nav.to_csv(
@@ -94,6 +200,41 @@ transactions.to_csv(
 
 performance.to_csv(
     "data/processed/performance_clean.csv",
+    index=False
+)
+
+fund_master.to_csv(
+    "data/processed/fund_master_clean.csv",
+    index=False
+)
+
+aum.to_csv(
+    "data/processed/aum_clean.csv",
+    index=False
+)
+
+sip.to_csv(
+    "data/processed/sip_clean.csv",
+    index=False
+)
+
+category.to_csv(
+    "data/processed/category_clean.csv",
+    index=False
+)
+
+folios.to_csv(
+    "data/processed/folios_clean.csv",
+    index=False
+)
+
+holdings.to_csv(
+    "data/processed/holdings_clean.csv",
+    index=False
+)
+
+benchmark.to_csv(
+    "data/processed/benchmark_clean.csv",
     index=False
 )
 
