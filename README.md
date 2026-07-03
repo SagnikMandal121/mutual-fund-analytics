@@ -27,5 +27,13 @@
 - Generated analytics reports and visualizations.
 - Created `Performance_Analytics.ipynb`, `alpha_beta.csv`, and `fund_scorecard.csv`.
 
+## Day 5 – Power BI Dashboard
+
+- Built a 4-page interactive Power BI dashboard.
+- Industry Overview with KPI cards and AUM analysis.
+- Fund Performance dashboard with risk-return analysis and scorecards.
+- Investor Analytics dashboard with demographics and transaction trends.
+- SIP and Market Trends dashboard with inflow analysis and heatmaps.
+
 
 Author: Sagnik Mandal
