@@ -19,5 +19,13 @@
 - Generated correlation heatmaps and geographic investment analysis.
 - Documented 10 key business insights.
 
+## Day 4 – Performance Analytics
+
+- Calculated daily returns, CAGR, Sharpe Ratio, Alpha, Beta, and Max Drawdown.
+- Built a fund ranking scorecard.
+- Performed benchmark analysis against NIFTY indices.
+- Generated analytics reports and visualizations.
+- Created `Performance_Analytics.ipynb`, `alpha_beta.csv`, and `fund_scorecard.csv`.
+
 
 Author: Sagnik Mandal
