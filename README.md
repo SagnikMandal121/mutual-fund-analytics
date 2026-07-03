@@ -35,5 +35,15 @@
 - Investor Analytics dashboard with demographics and transaction trends.
 - SIP and Market Trends dashboard with inflow analysis and heatmaps.
 
+## Day 6 – Advanced Analytics
+
+- Computed Historical VaR (95%) and CVaR for all funds.
+- Analyzed rolling 90-day Sharpe ratios.
+- Performed investor cohort analysis.
+- Studied SIP continuity and identified at-risk investors.
+- Built a simple fund recommendation engine.
+- Computed portfolio concentration using HHI.
+- Generated advanced investment insights and risk reports.
+
 
 Author: Sagnik Mandal
