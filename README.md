@@ -447,10 +447,8 @@ HHI = Σ(weight²)
 
 ## Sagnik Mandal
 
-Final Year Electronics & Communication Engineering Student  
-Founder — MedXpress  
-CMO — DGEN Technologies  
-Product Builder • Data Enthusiast • AI Engineer
+Data Analyst Intern
+
 
 ### Connect With Me
 
