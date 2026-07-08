@@ -198,7 +198,7 @@ Provides a macro view of the Indian Mutual Fund Industry.
 - Total folios increased to 26.12 crore.
 - SIP inflows reached ₹31,002 crore monthly.
 
-![Industry Overview](images/industry_overview.png)
+![Industry Overview](reports\industry_overview.png)
 
 ---
 
@@ -213,7 +213,7 @@ Features:
 - Benchmark Comparison
 - Risk Metrics Ranking
 
-![Performance Dashboard](images/fund_performance.png)
+![Performance Dashboard](reports\fund_performance.png)
 
 ---
 
@@ -228,7 +228,7 @@ Features:
 - Transaction Analysis
 - Monthly Transaction Volume
 
-![Investor Dashboard](images/investor_analysis.png)
+![Investor Dashboard](reports\investor_analysis.png)
 
 ---
 
@@ -243,7 +243,7 @@ Features:
 - Heatmap Analysis
 - Category Rankings
 
-![Market Flow Dashboard](images/sip&market_trends.png)
+![Market Flow Dashboard](reports/sip&market_trends.png)
 
 ---
 
@@ -285,91 +285,91 @@ HHI = Σ(weight²)
 
 ## Category Inflow Heatmap
 
-![Heatmap](images/category_heatmap.png)
+![Heatmap](reports/category_heatmap.png)
 
 ---
 
 ## Return Correlation Matrix
 
-![Correlation](images/correlation.png)
+![Correlation](reports/correlation.png)
 
 ---
 
 ## Daily Return Distribution
 
-![Returns](images/daily_return_distribution.png)
+![Returns](reports/daily_return_distribution.png)
 
 ---
 
 ## Investor Age Distribution
 
-![Age](images/age_distribution.png)
+![Age](reports/age_distribution.png)
 
 ---
 
 ## AUM Growth
 
-![AUM](images/aum_growth.png)
+![AUM](reports/aum_growth.png)
 
 ---
 
 ## Benchmark Comparison
 
-![Benchmark](images/benchmark_comparison.png)
+![Benchmark](reports/benchmark_comparison.png)
 
 ---
 
 ## Industry Folio Growth
 
-![Folio](images/folio_growth.png)
+![Folio](reports/folio_growth.png)
 
 ---
 
 ## Gender Distribution
 
-![Gender](images/gender_split.png)
+![Gender](reports/gender_split.png)
 
 ---
 
 ## NAV Trend
 
-![NAV](images/nav_trend.png)
+![NAV](reports/nav_trend.png)
 
 ---
 
 ## Rolling Sharpe Ratio
 
-![Sharpe](images/rolling_sharpe_chart.png)
+![Sharpe](reports/rolling_sharpe_chart.png)
 
 ---
 
 ## Sector Allocation
 
-![Sector](images/sector_donut.png)
+![Sector](reports/sector_donut.png)
 
 ---
 
 ## SIP Trend
 
-![SIP](images/sip_trend.png)
+![SIP](reports/sip_trend.png)
 
 ---
 
 ## SIP Distribution by State
 
-![State](images/state_distribution.png)
+![State](reports/state_distribution.png)
 
 ---
 
 ## SIP Amount by Age Group
 
-![Age SIP](images/sip_age_boxplot.png)
+![Age SIP](reports/sip_age_boxplot.png)
 
 ---
 
 ## T30 vs B30 Distribution
 
-![T30B30](images/t30_b30.png)
+![T30B30](reports/t30_b30.png)
 
 ---
 
