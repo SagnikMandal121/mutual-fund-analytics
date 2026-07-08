@@ -198,7 +198,7 @@ Provides a macro view of the Indian Mutual Fund Industry.
 - Total folios increased to 26.12 crore.
 - SIP inflows reached ₹31,002 crore monthly.
 
-![Industry Overview](reports\industry_overview.png)
+![Industry Overview](reports/industry_overview.png)
 
 ---
 
@@ -213,7 +213,7 @@ Features:
 - Benchmark Comparison
 - Risk Metrics Ranking
 
-![Performance Dashboard](reports\fund_performance.png)
+![Performance Dashboard](reports/fund_performance.png)
 
 ---
 
@@ -228,7 +228,7 @@ Features:
 - Transaction Analysis
 - Monthly Transaction Volume
 
-![Investor Dashboard](reports\investor_analysis.png)
+![Investor Dashboard](reports/investor_analysis.png)
 
 ---
 
