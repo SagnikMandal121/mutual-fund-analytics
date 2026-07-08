@@ -45,6 +45,12 @@
 - Computed portfolio concentration using HHI.
 - Generated advanced investment insights and risk reports.
 
+## Day 7 – Final Report & Presentation
 
+- Compiled a comprehensive capstone report covering ETL, EDA, performance analytics, dashboarding, and advanced analytics.
+- Documented key findings, investment insights, and recommendations.
+- Created an executive presentation summarizing the complete project lifecycle.
+- Integrated dashboard screenshots, analytics outputs, and visualizations into the final deliverables.
+- Prepared submission-ready documentation and presentation materials.
 
 Author: Sagnik Mandal
